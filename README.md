@@ -67,32 +67,6 @@ yarn start
 
 Your app will be available at `http://localhost:3000`.
 
-## Project Structure
-
-Fitness-Exercise-app/
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   ├── Exercises.jsx
-│   │   ├── ExerciseCard.jsx
-│   │   ├── Footer.jsx
-│   │   ├── HeroBanner.jsx
-│   │   ├── Navbar.jsx
-│   │   └── SearchExercises.jsx
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   └── ExerciseDetail.jsx
-│   ├── App.css
-│   ├── App.js
-│   ├── index.js
-│   └── utils/
-│       └── fetchData.js
-├── .env
-├── package.json
-└── README.md
-
 
 ## Component Overview
 
@@ -131,14 +105,6 @@ We use **ExerciseDB** via **RapidAPI**:
   * `GET /exercises` → list all exercises
   * `GET /exercises/bodyPart/{bodyPart}` → filter by body part
   * `GET /exercises/exercise/{id}` → details for one exercise
-
-js
-// utils/fetchData.js
-export const fetchData = async (url, options) => {
-  const response = await fetch(url, options);
-  const data = await response.json();
-  return data;
-};
 
 Add your key in `.env`:
 
