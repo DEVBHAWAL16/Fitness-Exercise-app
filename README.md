@@ -49,7 +49,7 @@ A React-based web application for discovering and tracking fitness exercises. Bu
 
 2. **Install dependencies**
    npm install
-   # or
+   or
    yarn install
    
 
@@ -62,7 +62,7 @@ A React-based web application for discovering and tracking fitness exercises. Bu
 
 ### Running Locally
 npm start
-# or
+or
 yarn start
 
 Your app will be available at `http://localhost:3000`.
